@@ -91,6 +91,10 @@ main{
 }
 
 footer{
+    padding: 1rem 0;
+    background-color: #b10101;
+    color:#fde403;
+    font-weight: bold;
     justify-content: center;
     text-align: center;
 }
