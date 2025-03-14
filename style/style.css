@@ -90,6 +90,38 @@ main{
     color: red;
 }
 
+#pedido{
+    background-color: #ee1919;
+    color: #fde403;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#lista-pedido{
+    list-style: none;
+    padding: 0;
+}
+
+#contato{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.redes-sociais a{
+    display: inline-block;
+    background-color: black;
+    color: #fde403;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+.redes-sociais a:hover{
+    color: red;
+    background-color: rgb(43, 43, 43);
+}
+
 footer{
     padding: 1rem 0;
     background-color: #b10101;
