@@ -39,4 +39,7 @@ const botaoFinalizarPedido = document.getElementById("finalizar-pedido");
 // adiciona evento de clique ao botao finalizar-pedido
 botaoFinalizarPedido.addEventListener('click', () =>{
     alert("Pedido realizado com sucesso (Simulação)");
+    listaPedido.innerHTML = '';
+    total = 0;
+    totalElemento.textContent = `Total: R$ ${total.toFixed(2)}`;
 });
